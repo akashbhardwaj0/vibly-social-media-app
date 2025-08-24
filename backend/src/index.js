@@ -4,7 +4,6 @@ import authRouter from './routes/auth.routes.js';
 import cookieParser from 'cookie-parser';
 import cors from 'cors';
 import userRouter from './routes/user.routes.js';
-import connectDB from './config/dbConnection.js';
 dotenv.config();
 
 const app = express();
